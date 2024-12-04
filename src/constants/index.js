@@ -20,7 +20,7 @@ import {
   octrans,
   country,
   ecommerce,
-  expense,
+  blog,
   mansat,
   miniprob,
   finschedule,
@@ -169,7 +169,7 @@ const projects = [
       },
     ],
     image: ecommerce,
-
+    hosted_link: "https://github.com/Saniya1970/Ecommerce/tree/main/Ecommerce-master",
   },
   {
     name: "FinSchedule",
@@ -191,7 +191,7 @@ const projects = [
       },
     ],
     image: finschedule,
-    hosted_link: "",
+    hosted_link: "https://github.com/Saniya1970/FinSchedule/tree/main/finschedule",
   },
   {
     name: "Mansat (Schools Group):",
@@ -212,7 +212,29 @@ const projects = [
       },
     ],
     image: mansat,
-    hosted_link: "/",
+    hosted_link: "https://github.com/Saniya1970/Mansat/tree/main/mansat",
+  },
+  {
+    name: "Blog-App",
+    description:
+      "Blog Application A full-stack project.This project demonstrates web application with CRUD (Create, Read, Update, Delete) functionalities. Key Features:Create and Manage Blogs: Users can create, edit, delete, and view blogs with rich text formatting.Tech Stack:Frontend: React, React Router,  CSS ,Backend: Node.js, Express.js,Mysql.",
+
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "my-sql",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: blog,
+    hosted_link: "https://github.com/Saniya1970/Blog-App/tree/main/blog-app",
   },
   {
     name: "Country Info",
@@ -233,29 +255,7 @@ const projects = [
       },
     ],
     image: country,
-    hosted_link:
-      "/",
-  },
-  {
-    name: "Expense Tracker",
-    description:
-      "Project made for understanding fetching data from form to table.Use of localhost,filter,sort and user authentication. Also use of custom hooks which made reusable componants for project.",
-    tags: [
-      {
-        name: "reactjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "green-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: expense,
-    hosted_link: "",
+    hosted_link: "/",
   },
   {
     name: "FrontendDev Mini Projects",
@@ -270,13 +270,12 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "expense",
+        name: "js",
         color: "pink-text-gradient",
       },
     ],
     image: miniprob,
-    hosted_link:
-      "/",
+    hosted_link: "https://github.com/Saniya1970/MiniProjects/tree/main/REACT",
   },
 ];
 

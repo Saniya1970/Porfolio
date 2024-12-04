@@ -27,7 +27,7 @@ import octrans from "./company/octrans.png"
 import ecommerce from "./projects/ecommerce.png"
 import country from "./projects/country.png"
 import mansat from "./projects/mansat.png"
-import expense from "./projects/expense.png"
+import blog from "./projects/blog.png"
 import finschedule from "./projects/finschedule.png"
 import miniprob from "./projects/miniprob.png"
 
@@ -58,7 +58,7 @@ export {
   octrans,
   country,
   ecommerce,
-  expense,
+  blog,
   mansat,
   miniprob,
   finschedule,
